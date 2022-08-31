@@ -1,0 +1,166 @@
+{
+  "save_close": false,
+  "routing": {
+    "paths": [
+      {
+        "id": "1",
+        "status": "1",
+        "rotation_id": "1",
+        "split": "100",
+        "rule_id": "0",
+        "is_rule": "0",
+        "name": "Path 1",
+        "landings": [
+          {
+            "status": 1,
+            "id_t": "18",
+            "type": 1,
+            "split": 100,
+            "detail": {
+              "name": "docs.oracle.com index.php",
+              "offers": "1",
+              "lang": ""
+            },
+            "paused": false,
+            "button_state": {
+              "not_paused": true
+            }
+          }
+        ],
+        "offers": [
+          {
+            "id": "2",
+            "path_id": "1",
+            "status": "1",
+            "id_t": "1",
+            "type": "4",
+            "split": "100",
+            "detail": {
+              "url": "https://google.com"
+            },
+            "is_camp": false,
+            "paused": false,
+            "button_state": {
+              "not_paused": true
+            }
+          }
+        ],
+        "paused": false,
+        "minimized": false,
+        "button_state": {
+          "not_paused": true
+        }
+      }
+    ],
+    "rules": [
+      {
+        "name": "Rule 1",
+        "status": 1,
+        "criteria": [
+          {
+            "status": 1,
+            "type": 21,
+            "type2": "0",
+            "type3": 0,
+            "values": [
+              "page=test"
+            ],
+            "paused": false,
+            "button_state": {
+              "not_paused": true
+            }
+          }
+        ],
+        "paths": [
+          {
+            "name": "Path 1",
+            "status": 1,
+            "split": 100,
+            "landings": [
+              {
+                "status": 1,
+                "id_t": "18",
+                "type": 1,
+                "split": 100,
+                "detail": {
+                  "name": "docs.oracle.com index.php",
+                  "offers": "1",
+                  "lang": ""
+                },
+                "paused": false,
+                "button_state": {
+                  "not_paused": true
+                }
+              }
+            ],
+            "offers": [
+              {
+                "status": 1,
+                "type": 4,
+                "split": 100,
+                "detail": {
+                  "name": "",
+                  "payout_auto": "1",
+                  "url": "https://duckduckgo.com"
+                },
+                "is_camp": false,
+                "paused": false,
+                "button_state": {
+                  "not_paused": true
+                }
+              }
+            ],
+            "paused": false,
+            "minimized": false,
+            "button_state": {
+              "not_paused": true
+            }
+          }
+        ],
+        "number": 1,
+        "paused": false,
+        "active": true,
+        "button_state": {
+          "not_paused": true
+        },
+        "minimized": false
+      }
+    ],
+    "list_of_rotations": [],
+    "current_rotation": {
+      "id": "1",
+      "isFlow": false
+    },
+    "tokens": []
+  },
+  "campaign": {
+    "name": "test",
+    "keyword": "9nd65jsnheg42so5t54x",
+    "domain": "0",
+    "group_id": "0",
+    "group_name": "",
+    "sources_id": "1",
+    "user_id": "1",
+    "cpc": "0",
+    "auto_cpc": "1",
+    "is_cpm": "0",
+    "is_cpa": "0",
+    "currency": "usd",
+    "detect_device": "1",
+    "detect_geo": "1",
+    "postback_url": "",
+    "red_type": "1",
+    "red_domain": "-1",
+    "smart_rotation": "0",
+    "losses": "0",
+    "ea": "100",
+    "land_tokens": "",
+    "camp_tokens": "",
+    "var_1": "",
+    "var_2": "0",
+    "note": "",
+    "rotation_id": "1",
+    "id": "1",
+    "allowed_users": []
+  }
+}
