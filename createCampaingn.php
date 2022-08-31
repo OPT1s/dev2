@@ -24,7 +24,7 @@ $domain = $argv[1];
 $keyword = preg_replace('/[^A-Za-z0-9]/', '', $domain);
 
 $trackerDomain = parse_url($entrypoint, PHP_URL_HOST);
-$campaigns = json_decode(file_get_contents('https://mirccm.com/?page=Campaigns&api_key=' . $apiKey), true);
+$campaigns = json_decode(file_get_contents('https://' . $trackerDomain . '/?page=Campaigns&api_key=' . $apiKey), true);
 
 foreach ($campaigns as $campaign) {
     if ($campaign['name'] === $domain) {
@@ -121,7 +121,7 @@ $data = [
 $curl = curl_init();
 
 curl_setopt_array($curl, array(
-    CURLOPT_URL => $entrypoint,
+    CURLOPT_URL => mirccm.com,
     CURLOPT_RETURNTRANSFER => true,
     CURLOPT_ENCODING => "",
     CURLOPT_MAXREDIRS => 10,
